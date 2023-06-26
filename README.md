@@ -1,4 +1,4 @@
-# cra-template-typescript-web
+# cra-template-typescript-recoil
 
 typescript 기반 react web template이다.
 node 16 version을 사용 하였다.
