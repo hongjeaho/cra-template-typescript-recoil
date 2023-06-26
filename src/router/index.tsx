@@ -2,8 +2,8 @@ import React from 'react'
 import { createBrowserRouter, type RouteObject } from 'react-router-dom'
 import BaseLayout from '@/components/layout/BaseLayout'
 import Home from '@/views/Home'
-import Info from '@/views/Info'
-import PrivateLayout from '@/components/layout/PrivateLayout'
+import info from './info'
+import Login from '@/views/Login'
 
 const router: RouteObject[] = [
   {
@@ -15,13 +15,10 @@ const router: RouteObject[] = [
         element: <Home />,
       },
       {
-        path: 'info',
-        element: (
-          <PrivateLayout>
-            <Info />
-          </PrivateLayout>
-        ),
+        path: '/login',
+        element: <Login />,
       },
+      ...info
     ],
   },
 ]
