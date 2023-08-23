@@ -1,36 +1,36 @@
 Arguments: 
-  /Users/lf/.nvm/versions/node/v16.20.1/bin/node /Users/lf/.nvm/versions/node/v16.20.1/bin/yarn publish
+  /usr/local/bin/node /usr/local/bin/yarn publish
 
 PATH: 
-  /Users/lf/.nvm/versions/node/v16.20.1/bin:/Users/lf/.jenv/shims:/Users/lf/.jenv/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/lf/.nvm/versions/node/v16.20.1/bin:/Users/lf/.jenv/shims:/Users/lf/.jenv/bin
+  /Users/hongjeaho/.rbenv/shims:/Users/hongjeaho/.jenv/shims:/Users/hongjeaho/.jenv/bin:/Users/hongjeaho/opt/anaconda3/bin:/Users/hongjeaho/opt/anaconda3/bin:/Users/hongjeaho/workspace/istio-1.14.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/hongjeaho/.rbenv/shims:/Users/hongjeaho/.jenv/shims:/Users/hongjeaho/.jenv/bin:/Users/hongjeaho/opt/anaconda3/bin:/Users/hongjeaho/workspace/istio-1.14.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:JAVA_HOME/bin:JAVA_HOME/bin
 
 Yarn version: 
   1.22.19
 
 Node version: 
-  16.20.1
+  14.17.5
 
 Platform: 
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/-/user/org.couchdb.user:kansin88: failed to authenticate: Could not authenticate kansin88: bad password
-      at Request.params.callback [as _callback] (/Users/lf/.nvm/versions/node/v16.20.1/lib/node_modules/yarn/lib/cli.js:66145:18)
-      at Request.self.callback (/Users/lf/.nvm/versions/node/v16.20.1/lib/node_modules/yarn/lib/cli.js:140890:22)
-      at Request.emit (node:events:513:28)
-      at Request.<anonymous> (/Users/lf/.nvm/versions/node/v16.20.1/lib/node_modules/yarn/lib/cli.js:141862:10)
-      at Request.emit (node:events:513:28)
-      at IncomingMessage.<anonymous> (/Users/lf/.nvm/versions/node/v16.20.1/lib/node_modules/yarn/lib/cli.js:141784:12)
-      at Object.onceWrapper (node:events:627:28)
-      at IncomingMessage.emit (node:events:525:35)
-      at endReadableNT (node:internal/streams/readable:1358:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:910:16)
+      at ReadStream.onkeypress (readline.js:235:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1179:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:290:12)
 
 npm manifest: 
   {
     "name": "@kansin88/cra-template-typescript-recoil",
     "main": "template.json",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "private": false,
     "browserslist": {
       "production": [

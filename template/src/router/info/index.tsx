@@ -1,8 +1,8 @@
 import React from 'react'
-import Info from '@/views/Info'
+import Info from '@/views/info/Info'
 import PrivateLayout from '@/components/layout/PrivateLayout'
 
-export default  [
+export default [
   {
     path: 'info',
     element: (
@@ -10,5 +10,5 @@ export default  [
         <Info />
       </PrivateLayout>
     ),
-  }
-] 
+  },
+]
