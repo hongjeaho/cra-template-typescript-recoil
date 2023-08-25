@@ -27,6 +27,7 @@
       "yarn": "^1.22.19"
     },
     "devDependencies": {
+      "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
       "@typescript-eslint/eslint-plugin": "^5.43.0",
       "@typescript-eslint/parser": "^5.58.0",
       "craco-alias": "^3.0.1",
