@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from '@emotion/styled/macro'
 import { Outlet } from 'react-router-dom'
 import Footer from '../base/Footer'

@@ -1,5 +1,4 @@
 import styled from '@emotion/styled/macro'
-import React from 'react'
 import { format } from 'date-fns'
 
 const Footer = styled.footer`

@@ -1,16 +1,13 @@
-import React, { useEffect } from 'react'
+import { type PropsWithChildren, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { isLoginSelector } from '@/store/customer'
 import { useRecoilValue } from 'recoil'
 
-interface Props {
-  children: React.ReactNode
-}
+interface Props extends PropsWithChildren {}
 
 const PrivateLayout: React.FC<Props> = ({ children }) => {
   const pageMove = useNavigate()
   const isLogin = useRecoilValue<boolean>(isLoginSelector)
-
 
   useEffect(() => {
     if (!isLogin) {
@@ -19,7 +16,11 @@ const PrivateLayout: React.FC<Props> = ({ children }) => {
     }
   }, [isLogin])
 
-  return <>{children}</>
+  if (!isLogin) {
+    return null
+  }
+
+  return <div>{children}</div>
 }
 
 export default PrivateLayout
