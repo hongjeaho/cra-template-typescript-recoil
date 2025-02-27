@@ -1,7 +1,7 @@
 {
   "name": "@kansin88/cra-template-typescript-recoil",
   "main": "template.json",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "private": false,
   "browserslist": {
     "production": [

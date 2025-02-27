@@ -1,7 +1,7 @@
 # cra-template-typescript-recoil
 
 typescript 기반 react web template이다.
-node 16 version을 사용 하였다.
+node 20.18.0 version 이상을 사용한다.
 
 ## 추가된 라이브러리
 
@@ -48,3 +48,17 @@ React에서 아이콘을 쉽게 사용하기 위해서 라이브러리를 추가
   - tanstack/react-query : 5.29.2
   - emotion: 11.11.X
   - date-fns: 3.6.0
+
+## 0.1.8
+
+- orval 설치를 위해서 node 20.18.0 필요.
+- orval 라이브러리 추가
+  - yarn add orval -D
+- orval 설정
+- axios 설정 및 http.ts 코드 추가
+
+### orval 실행
+
+```
+yarn orval-fix
+```

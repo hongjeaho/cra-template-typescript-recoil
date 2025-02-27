@@ -19,7 +19,11 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+    "react/no-unescaped-entities": 0,
     "@typescript-eslint/explicit-function-return-type": "off",
+    "@tanstack/query/prefer-query-object-syntax": "off",
+    "@typescript-eslint/promise-function-async": "off", //orval 라이브 사용으로 추가함
+    "@typescript-eslint/strict-boolean-expressions": "off", //orval 라이브 사용으로 추가함
     "@typescript-eslint/no-misused-promises": [
       2,
       {
