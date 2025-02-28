@@ -1,4 +1,3 @@
-import { type BaseApiResponse } from '@/model'
 import axios, {
   type AxiosError,
   type AxiosRequestConfig,
@@ -21,7 +20,7 @@ const onRequest = (config: InternalAxiosRequestConfig): InternalAxiosRequestConf
   return config
 }
 
-const onResponse = (response: AxiosResponse<BaseApiResponse>): AxiosResponse<BaseApiResponse> => {
+const onResponse = (response: AxiosResponse): AxiosResponse => {
   const { succeeded, message } = response.data
   const { headers } = response
 
