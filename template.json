@@ -42,6 +42,7 @@
       "eslint-plugin-prettier": "^4.2.1",
       "eslint-plugin-promise": "^6.0.0",
       "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-simple-import-sort": "^12.1.1",
       "orval": "^7.5.0",
       "prettier": "^2.8.7"
     },

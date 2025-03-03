@@ -15,11 +15,13 @@
     "sourceType": "module",
     "project": "tsconfig.json"
   },
-  "plugins": ["react", "@typescript-eslint", "@tanstack/query"],
+  "plugins": ["react", "@typescript-eslint", "@tanstack/query", "simple-import-sort"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "react/no-unescaped-entities": 0,
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@tanstack/query/prefer-query-object-syntax": "off",
     "@typescript-eslint/promise-function-async": "off", //orval 라이브 사용으로 추가함
