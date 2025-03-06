@@ -1,9 +1,9 @@
-import { customerState } from '@/store/customer'
+import { userState } from '@/store/user'
 import { useEffect } from 'react'
 import { useSetRecoilState } from 'recoil'
 
 const Login: React.FC = () => {
-  const setCustomer = useSetRecoilState(customerState)
+  const setCustomer = useSetRecoilState(userState)
 
   useEffect(() => {
     setCustomer({ name: 'testName' })

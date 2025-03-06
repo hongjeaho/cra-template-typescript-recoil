@@ -3,20 +3,20 @@
     "dependencies": {
       "@emotion/react": "^11.11.4",
       "@emotion/styled": "^11.11.5",
+      "@mui/material": "^6.4.3",
       "@tanstack/react-query": "^5.29.2",
       "add": "^2.0.6",
       "axios": "^1.6.8",
       "date-fns": "^3.6.0",
       "react": "^18.2.0",
       "react-dom": "^18.2.0",
+      "react-hook-form": "^7.54.2",
       "react-icons": "^5.1.0",
       "react-router-dom": "^6.22.3",
       "react-scripts": "5.0.1",
       "recoil": "^0.7.7",
       "reset-css": "^5.0.2",
-      "typescript": "*",
-      "web-vitals": "^2.1.0",
-      "yarn": "^1.22.19"
+      "web-vitals": "^2.1.0"
     },
     "devDependencies": {
       "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -31,10 +31,10 @@
       "@types/react-dom": "^18.0.0",
       "@types/react-modal": "^3.16.3",
       "@types/react-router-dom": "^5.3.3",
-      "@typescript-eslint/eslint-plugin": "^5.43.0",
+      "@typescript-eslint/eslint-plugin": "^5.58.0",
       "@typescript-eslint/parser": "^5.58.0",
       "craco-alias": "^3.0.1",
-      "eslint": "8.57.1",
+      "eslint": "^8.57.1",
       "eslint-config-prettier": "^8.8.0",
       "eslint-config-standard-with-typescript": "^34.0.1",
       "eslint-plugin-import": "^2.25.2",
@@ -44,16 +44,19 @@
       "eslint-plugin-react": "^7.32.2",
       "eslint-plugin-simple-import-sort": "^12.1.1",
       "orval": "^7.5.0",
-      "prettier": "^2.8.7"
+      "prettier": "^2.8.7",
+      "typescript": "*",
+      "yarn": "^1.22.19"
     },
     "scripts": {
       "start": "craco start",
       "build": "craco build",
       "test": "craco test",
       "eject": "craco eject",
+      "orval": "orval --config ./config/orval.config.ts",
       "eslint-fix": "eslint --fix --ext .ts,.tsx src",
       "prettier-fix": "prettier --write .",
-      "orval-fix": "orval --config ./config/orval.config.ts"
+      "orval-fix": "npm run orval && npm run eslint-fix"
     }
   }
 }

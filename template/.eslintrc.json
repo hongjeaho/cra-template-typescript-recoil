@@ -22,12 +22,13 @@
     "react/no-unescaped-entities": 0,
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@tanstack/query/prefer-query-object-syntax": "off",
     "@typescript-eslint/promise-function-async": "off", //orval 라이브 사용으로 추가함
     "@typescript-eslint/strict-boolean-expressions": "off", //orval 라이브 사용으로 추가함
     "@typescript-eslint/no-misused-promises": [
-      2,
+      "error",
       {
         "checksVoidReturn": {
           "attributes": false

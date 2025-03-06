@@ -1,6 +1,7 @@
 import styled from '@emotion/styled/macro'
 import { Outlet } from 'react-router-dom'
-import Footer from '../base/Footer'
+
+import Footer from '@/components/base/Footer'
 
 const Base = styled.div``
 const Main = styled.main``

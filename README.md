@@ -63,7 +63,9 @@ React에서 아이콘을 쉽게 사용하기 위해서 라이브러리를 추가
 yarn orval-fix
 ```
 
-### 0.2.0
+### 0.2.1
 
 - Add eslint-plugin-simple-import-sort
 - eslint upgrade 8.57.1
+- mui 라이브러리 추가
+- 라이브러리 위치 수정
