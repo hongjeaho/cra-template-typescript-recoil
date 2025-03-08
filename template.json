@@ -56,7 +56,7 @@
       "orval": "orval --config ./config/orval.config.ts",
       "eslint-fix": "eslint --fix --ext .ts,.tsx src",
       "prettier-fix": "prettier --write .",
-      "orval-fix": "npm run orval && npm run eslint-fix"
+      "orval-fix": "yarn orval && yarn eslint-fix"
     }
   }
 }
