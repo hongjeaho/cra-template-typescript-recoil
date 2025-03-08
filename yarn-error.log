@@ -1,36 +1,36 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn publish
+  /Users/kansin88/.nvm/versions/node/v20.18.3/bin/node /usr/local/bin/yarn publish
 
 PATH: 
-  /Users/hongjeaho/.rbenv/shims:/Users/hongjeaho/.jenv/shims:/Users/hongjeaho/.jenv/bin:/Users/hongjeaho/opt/anaconda3/bin:/Users/hongjeaho/opt/anaconda3/bin:/Users/hongjeaho/workspace/istio-1.14.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/hongjeaho/.rbenv/shims:/Users/hongjeaho/.jenv/shims:/Users/hongjeaho/.jenv/bin:/Users/hongjeaho/opt/anaconda3/bin:/Users/hongjeaho/workspace/istio-1.14.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:JAVA_HOME/bin:JAVA_HOME/bin
+  /Users/kansin88/.rbenv/shims:/Users/kansin88/.nvm/versions/node/v20.18.3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/kansin88/.rbenv/shims:/Users/kansin88/.nvm/versions/node/v20.18.3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/iTerm.app/Contents/Resources/utilities:/Users/kansin88/Library/Application Support/JetBrains/Toolbox/scripts:/Users/kansin88/Library/Application Support/JetBrains/Toolbox/scripts
 
 Yarn version: 
   1.22.19
 
 Node version: 
-  14.17.5
+  20.18.3
 
 Platform: 
-  darwin x64
+  darwin arm64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137150:13)
-      at Interface.emit (events.js:400:28)
-      at Interface._ttyWrite (readline.js:910:16)
-      at ReadStream.onkeypress (readline.js:235:10)
-      at ReadStream.emit (events.js:400:28)
-      at emitKeys (internal/readline/utils.js:358:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1179:36)
-      at ReadStream.emit (events.js:400:28)
-      at addChunk (internal/streams/readable.js:290:12)
+  Error: https://registry.yarnpkg.com/-/user/org.couchdb.user:kansin88: child "otp" fails because ["otp" with value "v7_startTransition" fails to match the required pattern: /^\d+$/, "otp" length must be 64 characters long]
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:518:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:518:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:632:28)
+      at IncomingMessage.emit (node:events:530:35)
+      at endReadableNT (node:internal/streams/readable:1698:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 npm manifest: 
   {
     "name": "@kansin88/cra-template-typescript-recoil",
     "main": "template.json",
-    "version": "0.1.2",
+    "version": "0.2.5",
     "private": false,
     "browserslist": {
       "production": [
